@@ -73,7 +73,6 @@ device=LED
 T 47900 41100 5 10 0 0 0 0 1
 footprint=LED3
 }
-C 46600 41200 1 0 0 vcc-1.sym
 C 48900 40900 1 0 0 gnd-1.sym
 C 47000 41100 1 0 0 resistor-2.sym
 {
@@ -86,7 +85,6 @@ footprint=0.125W_Carbon_Resistor
 T 47500 41400 5 10 1 1 0 0 1
 value=1K
 }
-N 47000 41200 46800 41200 4
 N 49000 41200 48800 41200 4
 C 49100 46700 1 0 0 connector6-1.sym
 {
