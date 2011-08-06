@@ -1,14 +1,14 @@
 # release: pcb 20100929
-# date:    Sat Aug  6 23:50:31 2011
+# date:    Sun Aug  7 00:00:12 2011
 # user:    sphinx ()
 # host:    blizzard
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
 
-PCB["ATmega protoboard" 149606 275591]
+PCB["TX-node" 149606 275591]
 
-Grid[393.700775 0 0 0]
+Grid[39.370079 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
