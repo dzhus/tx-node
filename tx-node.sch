@@ -48,7 +48,7 @@ C 43100 47900 1 0 0 connector4-1.sym
 T 44900 48800 5 10 0 0 0 0 1
 device=CONNECTOR_4
 T 43100 49300 5 10 1 1 0 0 1
-refdes=CONN1
+refdes=CONN4
 T 43100 47900 5 10 0 0 0 0 1
 footprint=CONNECTOR 4 1
 }
@@ -91,7 +91,7 @@ C 49100 46700 1 0 0 connector6-1.sym
 T 50900 48500 5 10 0 0 0 0 1
 device=CONNECTOR_6
 T 49200 48700 5 10 1 1 0 0 1
-refdes=CONN2
+refdes=CONN3
 T 49100 46700 5 10 0 0 0 0 1
 footprint=CONNECTOR 6 1
 }
@@ -137,7 +137,7 @@ C 42600 41700 1 0 0 connector2-1.sym
 T 42800 42700 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 42600 42500 5 10 1 1 0 0 1
-refdes=CONN5
+refdes=PWR1
 T 42600 41700 5 10 0 0 0 0 1
 footprint=CONNECTOR 2 1
 }
@@ -150,7 +150,7 @@ C 42600 45300 1 0 0 connector6-1.sym
 T 44400 47100 5 10 0 0 0 0 1
 device=CONNECTOR_6
 T 42700 47300 5 10 1 1 0 0 1
-refdes=CONN3
+refdes=CONN1
 T 42600 45300 5 10 0 0 0 0 1
 footprint=CONNECTOR 6 1
 }
@@ -159,7 +159,7 @@ C 42600 43200 1 0 0 connector6-1.sym
 T 44400 45000 5 10 0 0 0 0 1
 device=CONNECTOR_6
 T 42700 45200 5 10 1 1 0 0 1
-refdes=CONN4
+refdes=CONN2
 T 42600 43200 5 10 0 0 0 0 1
 footprint=CONNECTOR 6 1
 }

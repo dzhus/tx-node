@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Wed Aug  3 23:52:04 2011
+# date:    Thu Aug  4 01:44:27 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -803,23 +803,6 @@ Via[21000 157000 3600 2800 0 2000 "" ""]
 Via[16500 147000 3600 2800 0 2000 "" ""]
 Via[39000 58000 3600 2800 0 2000 "" ""]
 
-Element["" "CONNECTOR-2-1" "CONN5" "unknown" 135500 9000 11000 -5000 3 100 ""]
-(
-	Attribute("device" "CONNECTOR_2")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
-	Pin[0 10000 6000 3000 6600 3800 "2" "2" "thermal(1X)"]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [5000 -5000 5000 15000 1000]
-	ElementLine [-5000 15000 5000 15000 1000]
-	ElementLine [-5000 -5000 -5000 15000 1000]
-
-	)
 
 Element["" "CONNECTOR-6-1" "CONN3" "unknown" 32500 147000 11000 -5000 3 100 ""]
 (
@@ -949,25 +932,6 @@ Element["" "0.125W_Carbon_Resistor" "R1" "10K" 49000 15000 -2754 12289 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-4-1" "CONN1" "unknown" 59902 12149 17834 -11001 0 100 ""]
-(
-	Attribute("device" "CONNECTOR_4")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0X,1X)"]
-	Pin[30000 0 6000 3000 6600 3800 "4" "4" "edge2"]
-	ElementLine [-5000 5000 35000 5000 1000]
-	ElementLine [35000 -5000 35000 5000 1000]
-	ElementLine [-5000 -5000 35000 -5000 1000]
-	ElementLine [-5000 -5000 -5000 5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-
-	)
 
 Element["" "SW__Panasonic_EVQPA_Series" "S1" "unknown" 75851 35902 14066 -2752 0 100 ""]
 (
@@ -1392,27 +1356,6 @@ Element["" "1 pin" "" "2" 30000 256000 26000 0 3 100 ""]
 
 	)
 
-Element["" "CONNECTOR-6-1" "CONN4" "unknown" 50124 129534 -5000 -11000 0 100 ""]
-(
-	Attribute("device" "CONNECTOR_6")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
-	Pin[30000 0 6000 3000 6600 3800 "4" "4" "edge2"]
-	Pin[40000 0 6000 3000 6600 3800 "5" "5" "edge2"]
-	Pin[50000 0 6000 3000 6600 3800 "6" "6" "edge2"]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 -5000 5000 1000]
-	ElementLine [-5000 -5000 55000 -5000 1000]
-	ElementLine [55000 -5000 55000 5000 1000]
-	ElementLine [-5000 5000 55000 5000 1000]
-
-	)
 Layer(1 "component")
 (
 	Line[39500 83000 49413 92913 1400 2800 "clearline"]
