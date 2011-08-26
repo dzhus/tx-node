@@ -1,7 +1,7 @@
 # release: pcb 20100929
-# date:    Thu Aug 25 00:20:29 2011
-# user:    dzhus ()
-# host:    borealis
+# date:    Fri Aug 26 20:37:21 2011
+# user:    sphinx ()
+# host:    blizzard
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -992,19 +992,6 @@ Element["" "0.125W_Carbon_Resistor" "R2" "1K" 116882 133031 -3148 -17806 0 100 "
 
 	)
 
-Element["" "CONNECTOR-2-1" "PWR1" "unknown" 112873 11927 -5000 -11000 0 100 ""]
-(
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(1X)"]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 -5000 5000 1000]
-	ElementLine [-5000 -5000 15000 -5000 1000]
-	ElementLine [15000 -5000 15000 5000 1000]
-	ElementLine [-5000 5000 15000 5000 1000]
-
-	)
-
 Element["" "LED3" "D1" "unknown" 99992 112371 -13849 -10396 0 100 ""]
 (
 	Attribute("device" "LED")
@@ -1295,16 +1282,27 @@ Element["" "1x2 pins" "" "2" 49094 265984 21000 -5000 3 100 ""]
 
 	)
 
-Element["" "RCY100" "C1" "10u" 109464 24067 -2207 16036 0 100 ""]
+Element["" "CON_HDR-200P-2C-1R-2N__JST_B2B-PH-K" "PWR1" "unknown" 114175 12992 9128 10327 0 100 ""]
 (
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 6000 3000 6600 3000 "+" "1" "square"]
-	Pin[0 10000 6000 3000 6600 3000 "-" "2" "thermal(1X)"]
-	ElementArc [0 5000 10000 10000 270 360 1000]
+	Pin[-3936 -2165 5000 2000 7000 2900 "" "1" "edge2"]
+	Pin[3936 -2165 5000 2000 7000 2900 "" "2" "edge2,thermal(0X,1X)"]
+	Pad[-3936 -3415 -3936 -914 5000 2000 7000 "" "1" "octagon"]
+	Pad[-3936 -3415 -3936 -914 5000 2000 7000 "" "1" "onsolder,octagon"]
+	Pad[3936 -3415 3936 -914 5000 2000 7000 "" "2" "octagon"]
+	Pad[3936 -3415 3936 -914 5000 2000 7000 "" "2" "onsolder,octagon"]
+	ElementLine [-10614 -8858 -11614 -7858 1000]
+	ElementLine [-10614 -8858 -9614 -8858 1000]
+	ElementLine [-11614 -6858 -9614 -8858 1000]
+	ElementLine [-11614 -6858 -11614 -5858 1000]
+	ElementLine [-8614 -8858 -11614 -5858 1000]
+	ElementLine [-8614 -8858 -7614 -8858 1000]
+	ElementLine [-11614 -4858 -7614 -8858 1000]
+	ElementLine [-11614 -4858 -11614 -3858 1000]
+	ElementLine [-6614 -8858 -11614 -3858 1000]
+	ElementLine [-11614 -8858 11614 -8858 1000]
+	ElementLine [-11614 -8858 -11614 8858 1000]
+	ElementLine [-11614 8858 11614 8858 1000]
+	ElementLine [11614 -8858 11614 8858 1000]
 
 	)
 
@@ -1395,6 +1393,19 @@ Element["" "1x2 pins" "" "2" 140000 216000 5000 21000 2 100 ""]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
 
 	)
+
+Element["" "RCY100" "C1" "10u" 113741 33503 -2207 16036 0 100 ""]
+(
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0 0 6000 3000 6600 3000 "+" "1" "square"]
+	Pin[0 10000 6000 3000 6600 3000 "-" "2" "thermal(1X)"]
+	ElementArc [0 5000 10000 10000 270 360 1000]
+
+	)
 Layer(1 "component")
 (
 	Line[39500 83000 49413 92913 1400 2800 "clearline"]
@@ -1406,7 +1417,7 @@ Layer(1 "component")
 	Line[70000 19000 74000 23000 1400 2800 "clearline"]
 	Line[21000 78000 27000 72000 1400 2800 "clearline"]
 	Line[16500 76500 35000 58000 1400 2800 "clearline"]
-	Line[109500 24000 101753 24000 2500 4000 "clearline"]
+	Line[6693 57087 6693 187795 2500 4000 ""]
 	Line[59000 251953 59000 256000 1400 2800 "clearline"]
 	Line[83240 44760 88646 44760 1400 2800 "clearline"]
 	Line[136000 84000 107000 55000 1400 2800 "clearline"]
@@ -1579,7 +1590,7 @@ Layer(1 "component")
 	Line[49079 255874 49079 251874 1400 2800 "clearline"]
 	Line[39567 242000 39567 238433 1400 2800 "clearline"]
 	Line[39567 238433 39567 226433 1400 2800 ""]
-	Line[109464 24067 109464 15336 2500 4000 ""]
+	Line[24898 206000 50000 206000 2500 4000 ""]
 	Line[39567 226433 40000 226000 1400 2800 ""]
 	Line[47441 242000 47441 243559 1400 2800 "clearline"]
 	Line[47441 243559 40000 251000 1400 2800 "clearline"]
@@ -1600,10 +1611,12 @@ Layer(1 "component")
 	Line[6143 34999 3937 37205 2500 4000 ""]
 	Line[3937 37205 3937 54331 2500 4000 ""]
 	Line[3937 54331 6693 57087 2500 4000 ""]
-	Line[109464 15336 112873 11927 2500 4000 ""]
-	Line[6693 57087 6693 187795 2500 4000 ""]
 	Line[6693 187795 24898 206000 2500 4000 ""]
-	Line[24898 206000 50000 206000 2500 4000 ""]
+	Line[101753 24000 111256 33503 2500 4000 ""]
+	Line[111256 33503 113741 33503 2500 4000 ""]
+	Line[113741 33503 113741 27717 2500 4000 ""]
+	Line[113741 27717 110236 24212 2500 4000 ""]
+	Line[110236 24212 110236 10827 2500 4000 ""]
 )
 Layer(2 "solder")
 (
@@ -1632,6 +1645,7 @@ Layer(2 "solder")
 	Line[92520 119685 96850 119685 1400 2800 "clearline"]
 	Line[96850 119685 100000 122835 1400 2800 "clearline"]
 	Line[100000 206000 142031 206000 4000 2000 ""]
+	Line[118110 5512 118110 15945 2500 4000 ""]
 	Polygon("clearpoly")
 	(
 		[124016 201772] [127953 205709] [143701 205709] [147638 201772] 
