@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Fri Aug 26 22:55:20 2011
+# date:    Fri Aug 26 23:43:15 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -897,25 +897,20 @@ Element["" "TQFP32_7" "U1" "unknown" 75067 85039 -2000 -6000 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-6-1" "CONN2" "unknown" 50149 129744 -5000 -11000 0 100 ""]
+Element["" "CONNECTOR-6-1" "CONN1" "unknown" 32362 146930 11000 -5000 3 100 ""]
 (
-	Attribute("device" "CONNECTOR_6")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
-	Pin[30000 0 6000 3000 6600 3800 "4" "4" "edge2"]
-	Pin[40000 0 6000 3000 6600 3800 "5" "5" "edge2"]
-	Pin[50000 0 6000 3000 6600 3800 "6" "6" "edge2"]
-	ElementLine [-5000 -5000 5000 -5000 1000]
-	ElementLine [5000 -5000 5000 5000 1000]
-	ElementLine [-5000 -5000 -5000 5000 1000]
-	ElementLine [-5000 -5000 55000 -5000 1000]
-	ElementLine [55000 -5000 55000 5000 1000]
-	ElementLine [-5000 5000 55000 5000 1000]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 3800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 3800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 3800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 3800 "6" "6" ""]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 -5000 -5000 -5000 1000]
+	ElementLine [5000 55000 5000 -5000 1000]
+	ElementLine [-5000 55000 5000 55000 1000]
+	ElementLine [-5000 -5000 -5000 55000 1000]
 
 	)
 
@@ -1330,20 +1325,16 @@ Element["" "HEADER6_2" "ICSP1" "unknown" 10118 44999 -5000 -21000 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-6-1" "CONN1" "unknown" 32362 146930 11000 -5000 3 100 ""]
+Element["" "RCY100" "C1" "10u" 113741 33503 -2207 16036 0 100 ""]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
-	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
-	Pin[0 20000 6000 3000 6600 3800 "3" "3" ""]
-	Pin[0 30000 6000 3000 6600 3800 "4" "4" ""]
-	Pin[0 40000 6000 3000 6600 3800 "5" "5" ""]
-	Pin[0 50000 6000 3000 6600 3800 "6" "6" ""]
-	ElementLine [5000 5000 5000 -5000 1000]
-	ElementLine [-5000 5000 5000 5000 1000]
-	ElementLine [5000 -5000 -5000 -5000 1000]
-	ElementLine [5000 55000 5000 -5000 1000]
-	ElementLine [-5000 55000 5000 55000 1000]
-	ElementLine [-5000 -5000 -5000 55000 1000]
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0 0 6000 3000 6600 3000 "+" "1" "square"]
+	Pin[0 10000 6000 3000 6600 3000 "-" "2" "thermal(1X)"]
+	ElementArc [0 5000 10000 10000 270 360 1000]
 
 	)
 
@@ -1394,16 +1385,33 @@ Element["" "1x2 pins" "" "2" 140000 216000 5000 21000 2 100 ""]
 
 	)
 
-Element["" "RCY100" "C1" "10u" 113741 33503 -2207 16036 0 100 ""]
+Element["" "CONNECTOR-6-1" "CONN2" "unknown" 50000 129921 -5000 -11000 0 100 ""]
 (
-	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("device" "CONNECTOR_6")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 6000 3000 6600 3000 "+" "1" "square"]
-	Pin[0 10000 6000 3000 6600 3000 "-" "2" "thermal(1X)"]
-	ElementArc [0 5000 10000 10000 270 360 1000]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[30000 0 6000 3000 6600 3800 "4" "4" "edge2"]
+	Pin[40000 0 6000 3000 6600 3800 "5" "5" "edge2"]
+	Pin[50000 0 6000 3000 6600 3800 "6" "6" "edge2"]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [-5000 -5000 55000 -5000 1000]
+	ElementLine [55000 -5000 55000 5000 1000]
+	ElementLine [-5000 5000 55000 5000 1000]
+
+	)
+
+Element["" "jumper-3-pad-open" "J1" "unknown" 109843 127874 -4547 -9221 0 100 ""]
+(
+	Pad[0 5000 0 5000 4000 2000 6000 "" "2" "square"]
+	Pad[0 0 0 0 4000 2000 6000 "" "1" "square"]
+	Pad[0 10000 0 10000 4000 2000 6000 "" "3" "square"]
 
 	)
 Layer(1 "component")
@@ -1476,7 +1484,7 @@ Layer(1 "component")
 	Line[48685 80315 56288 80315 1400 2800 "clearline"]
 	Line[90079 250874 90079 255874 1400 2800 "clearline"]
 	Line[133000 85000 106000 58000 1400 2800 "clearline"]
-	Line[102913 147000 116882 133031 1400 2800 ""]
+	Line[110236 24212 110236 10827 2500 4000 ""]
 	Line[60000 167000 70000 167000 4000 2000 ""]
 	Line[50000 206000 70000 206000 4000 2000 ""]
 	Line[88938 96062 88000 97000 1400 2800 ""]
@@ -1603,7 +1611,7 @@ Layer(1 "component")
 	Line[122000 83000 125984 86984 1400 2800 ""]
 	Line[104992 112371 107542 112371 1400 2800 ""]
 	Line[107542 112371 116882 103031 1400 2800 ""]
-	Line[100000 147000 102913 147000 1400 2800 ""]
+	Line[102047 127874 100000 129921 1400 2800 ""]
 	Line[100000 206000 80000 206000 4000 2000 ""]
 	Line[49000 15000 30117 15000 2500 4000 ""]
 	Line[30117 15000 10118 34999 2500 4000 ""]
@@ -1616,7 +1624,11 @@ Layer(1 "component")
 	Line[111256 33503 113741 33503 2500 4000 ""]
 	Line[113741 33503 113741 27717 2500 4000 ""]
 	Line[113741 27717 110236 24212 2500 4000 ""]
-	Line[110236 24212 110236 10827 2500 4000 ""]
+	Line[109843 132874 116725 132874 1400 2800 ""]
+	Line[116725 132874 116882 133031 1400 2800 ""]
+	Line[109843 127874 102047 127874 1400 2800 ""]
+	Line[109843 137874 100670 147047 1400 2800 ""]
+	Line[100670 147047 99803 147047 1400 2800 ""]
 )
 Layer(2 "solder")
 (
@@ -1769,98 +1781,104 @@ NetList()
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
+		Connect("J1-2")
+		Connect("R2-1")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
 		Connect("CONN3-2")
 		Connect("U1-24")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("CONN3-4")
 		Connect("U1-26")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("CONN3-6")
 		Connect("U1-28")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("CONN3-1")
 		Connect("U1-23")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("CONN3-3")
 		Connect("U1-25")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("CONN3-5")
 		Connect("U1-27")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("CONN1-2")
 		Connect("U1-1")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("CONN1-4")
 		Connect("U1-9")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("CONN1-6")
 		Connect("U1-11")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("CONN1-1")
 		Connect("U1-32")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("CONN1-3")
 		Connect("U1-2")
 	)
-	Net("unnamed_net17" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("CONN1-5")
 		Connect("U1-10")
 	)
-	Net("unnamed_net18" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("CONN2-2")
 		Connect("U1-13")
 	)
-	Net("unnamed_net19" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("CONN2-4")
 		Connect("ICSP1-4")
 		Connect("U1-15")
 	)
-	Net("unnamed_net20" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("CONN2-6")
 		Connect("ICSP1-3")
+		Connect("J1-1")
 		Connect("U1-17")
 	)
-	Net("unnamed_net21" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("CONN2-1")
 		Connect("U1-12")
 	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("CONN2-3")
 		Connect("U1-14")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net24" "(unknown)")
 	(
 		Connect("CONN2-5")
 		Connect("ICSP1-1")
 		Connect("U1-16")
 	)
-	Net("unnamed_net24" "(unknown)")
+	Net("unnamed_net25" "(unknown)")
 	(
 		Connect("C3-1")
 		Connect("U1-20")
