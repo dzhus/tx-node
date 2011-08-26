@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Fri Aug 26 20:37:21 2011
+# date:    Fri Aug 26 22:55:20 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -992,7 +992,7 @@ Element["" "0.125W_Carbon_Resistor" "R2" "1K" 116882 133031 -3148 -17806 0 100 "
 
 	)
 
-Element["" "LED3" "D1" "unknown" 99992 112371 -13849 -10396 0 100 ""]
+Element["" "LED3" "D1" "unknown" 99992 112371 -2589 -15159 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1710,10 +1710,13 @@ Layer(10 "silk")
 	Line[10000 211000 140000 211000 1400 2800 "clearline"]
 	Text[26259 183015 3 100 "D2-D7" "clearline"]
 	Text[129607 184055 3 100 "A0-A5" "clearline"]
-	Text[20669 4922 0 100 "Rev. 1" "clearline"]
+	Text[138703 62952 1 100 "Rev. 1" "clearline"]
 	Text[84559 135661 0 100 "D8-D13" "clearline"]
 	Text[37401 203741 0 100 "Vcc" "clearline"]
 	Text[104330 203740 0 100 "GND" "clearline"]
+	Text[98937 7993 0 100 "+" "clearline"]
+	Text[127599 7992 0 100 "-" "clearline"]
+	Text[129881 62835 1 122 "TX-node" "clearline"]
 )
 NetList()
 (
