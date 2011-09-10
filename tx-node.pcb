@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Sat Aug 27 00:31:33 2011
+# date:    Sat Sep 10 15:53:47 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -8,7 +8,7 @@ FileVersion[20100606]
 
 PCB["TX-node" 149606 275591]
 
-Grid[39.370079 0 0 0]
+Grid[393.700775 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -1460,13 +1460,13 @@ Layer(1 "component")
 	Line[58658 121000 50124 129534 1400 2800 "clearline"]
 	Line[34500 83000 39500 83000 1400 2800 "clearline"]
 	Line[56288 92913 49413 92913 1400 2800 "clearline"]
-	Line[106000 94000 108000 94000 1400 2800 "clearline"]
+	Line[39567 244685 39567 246433 1400 2800 ""]
 	Line[56288 83464 62464 83464 1400 2800 "clearline"]
 	Line[58000 67000 58000 68000 1400 2800 "clearline"]
 	Line[56288 89764 62764 89764 1400 2800 "clearline"]
 	Line[58000 68000 63000 73000 1400 2800 "clearline"]
 	Line[62764 89764 65913 92913 1400 2800 "clearline"]
-	Line[65913 92913 93846 92913 1400 2800 "clearline"]
+	Line[65913 92913 100079 92913 1400 2800 "clearline"]
 	Line[123228 89228 123228 141272 1400 2800 ""]
 	Line[52233 5511 49000 8744 2500 4000 "clearline"]
 	Line[39000 46000 39000 28000 2500 4000 "clearline"]
@@ -1534,8 +1534,8 @@ Layer(1 "component")
 	Line[108000 84000 103000 84000 1400 2800 "clearline"]
 	Line[103000 84000 102464 83464 1400 2800 "clearline"]
 	Line[102464 83464 93846 83464 1400 2800 "clearline"]
-	Line[93846 86614 98614 86614 1400 2800 "clearline"]
-	Line[98614 86614 106000 94000 1400 2800 "clearline"]
+	Line[108000 94000 100669 86653 1400 2800 ""]
+	Line[39567 246433 30000 256000 1400 2800 ""]
 	Line[93846 77165 111165 77165 1400 2800 "clearline"]
 	Line[111165 77165 117500 83500 1400 2800 "clearline"]
 	Line[125984 142126 125984 86984 1400 2800 ""]
@@ -1621,8 +1621,9 @@ Layer(1 "component")
 	Line[55315 249638 49079 255874 1400 2800 ""]
 	Line[47441 244685 47441 248559 1400 2800 ""]
 	Line[47441 248559 40000 256000 1400 2800 ""]
-	Line[39567 244685 39567 246433 1400 2800 ""]
-	Line[39567 246433 30000 256000 1400 2800 ""]
+	Line[93846 86614 100630 86614 1400 2800 ""]
+	Line[108000 94000 101165 94000 1400 2800 ""]
+	Line[100079 92913 101181 94015 1400 2800 ""]
 )
 Layer(2 "solder")
 (
@@ -1718,7 +1719,7 @@ Layer(10 "silk")
 	Line[98622 232874 98622 248425 600 1200 ""]
 	Text[26259 183015 3 100 "D2-D7" "clearline"]
 	Text[129607 184055 3 100 "A0-A5" "clearline"]
-	Text[138703 62952 1 100 "Rev. 1" "clearline"]
+	Text[138703 62952 1 100 "Rev. 1.1" "clearline"]
 	Text[84559 135661 0 100 "D8-D13" "clearline"]
 	Text[37401 203741 0 100 "Vcc" "clearline"]
 	Text[104330 203740 0 100 "GND" "clearline"]
@@ -1874,15 +1875,11 @@ NetList()
 		Connect("ICSP1-1")
 		Connect("U1-16")
 	)
-	Net("unnamed_net25" "(unknown)")
-	(
-		Connect("C3-1")
-		Connect("U1-20")
-	)
 	Net("Vcc" "(unknown)")
 	(
 		Connect("C1-1")
 		Connect("C2-1")
+		Connect("C3-1")
 		Connect("CONN4-4")
 		Connect("ICSP1-2")
 		Connect("PWR1-1")
@@ -1890,5 +1887,6 @@ NetList()
 		Connect("U1-4")
 		Connect("U1-6")
 		Connect("U1-18")
+		Connect("U1-20")
 	)
 )
