@@ -117,7 +117,7 @@ device=CONNECTOR_2
 T 42600 42500 5 10 1 1 0 0 1
 refdes=PWR1
 T 42600 41700 5 10 0 0 0 0 1
-footprint=CON_HDR-200P-2C-1R-2N__JST_B2B-PH-K
+footprint=CWF-2
 }
 C 44500 41600 1 0 0 gnd-1.sym
 C 44400 42200 1 0 0 vcc-1.sym
